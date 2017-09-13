@@ -1,0 +1,8 @@
+body {
+	/*background-color: rgba(15,150,48,1); RGB*/
+	/*background-color: #FFFFFF; HEX*/
+	/*background-color: white; Color predeterminado*/
+	background-color: red;
+	color:white;
+	width: 1024px;
+}

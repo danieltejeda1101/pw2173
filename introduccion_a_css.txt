@@ -1,0 +1,18 @@
+CSS = Hoja de estilo en cascada
+¿Para qué sirve?
+	estilos
+	maquetar
+	diseño y color
+
+pseudoelementos @
+
+selectores - cambian atributos
+	etiquetas = p, hmtl, div
+	identificador = #id
+	clases = .class
+
+media queries - diseño adaptativor
+
+TODO EN ORDEN ALFABÉTICO
+TODO LO DE COLOR, DISEÑO, ETC DEBE IR EN LA HOJA DE ESTILOS
+
