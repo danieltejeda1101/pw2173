@@ -1,8 +1,22 @@
 body {
-	/*background-color: rgba(15,150,48,1); RGB*/
-	/*background-color: #FFFFFF; HEX*/
-	/*background-color: white; Color predeterminado*/
-	background-color: red;
-	color:white;
-	width: 1024px;
+	width: 1024px; /*ancho de pantalla en landscape de las tablets*/
+	border: 1px solid red;
+}
+
+header{
+	text-align: center;
+}
+
+header img{
+	float:right;
+	width: 90px;
+}
+
+header nav ul li{
+	display: inline-block;
+	background: lightblue;
+	color: white;
+	margin: 0px 3px;
+	padding: 3px 10px;
+	border-radius: 5px;
 }
