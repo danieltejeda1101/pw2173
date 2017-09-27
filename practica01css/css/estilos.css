@@ -1,7 +1,6 @@
 body{
 	max-width: 1024px;
 	margin: 0 auto;
-	border: 1px solid red;
 	font-size: 16px; /* 1em */
 }
 
@@ -52,4 +51,35 @@ header nav ul li{
 	width: 98%;
 	margin-top: 6px;
 }
+
+#seccion02 article{
+	width: 33%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#seccion02 article input[type="submit"]{
+	background: white;
+	color: blue;
+	margin-left: 130px;
+	border-radius: 5px;
+}
+
+.unaSeccion, .otraSeccion{
+	font-weight: bold;
+}
+
+.unaSeccion{
+	font-size: 4.5em;
+}
+
+.otraSeccion{
+	font-size: 2.5em;
+}
+
+
+
+
+
+
 
