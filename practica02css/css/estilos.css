@@ -1,7 +1,29 @@
 body{
 	max-width: 1078px;
+	min-width: 1078px;
 	margin: 0 auto;
 	font-size: 16px; /*1em*/
+}
+
+header input{
+	float: right;
+	margin-right: -200px;
+	position: relative;
+	margin-top:  10px;
+}
+
+header nav{
+	/*border: 1px solid red; La cosa roja*/
+	margin-left: 220px;
+}
+
+header nav ul li{
+	display: inline-block;
+	margin-right: 15px;
+	color: gray; /*grey*/
+	font-size: 1.7em;
+	/*text-decoration: underline; Esta es otra manera de hacer borde inferior*/
+	border-bottom: 1px solid gray;
 }
 
 #granthams{
@@ -13,13 +35,31 @@ body{
 	float: right;
 }
 
-header input{
-	float: right;
-	margin-right: -200px;
-	position: relative;
-	margin-top:  10px;
+#primeraSeccion{
+	margin-top: 60px;
+	width: 100%;
+	height: 138px;
 }
 
-header nav ul li{
+#primeraSeccion article{
 	display: inline-block;
 }
+
+#secc01art01{
+	width: 60%;
+	margin-left: 30px;
+	margin-right: 10px;
+}
+
+#secc01art02{
+	vertical-align: top;
+	width: 20%;
+	margin-left: 150px;
+}
+
+#bgoffer{
+	top: -400px;
+	left: -40px;
+	position: relative;
+}
+
