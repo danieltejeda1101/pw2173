@@ -37,12 +37,12 @@ header nav ul li{
 
 #primeraSeccion{
 	margin-top: 60px;
-	width: 100%;
 	height: 138px;
 }
 
 #primeraSeccion article{
 	display: inline-block;
+	vertical-align: top;
 }
 
 #secc01art01{
@@ -53,8 +53,19 @@ header nav ul li{
 
 #secc01art02{
 	vertical-align: top;
-	width: 20%;
-	margin-left: 150px;
+	width: 30%;
+	margin-left: 50px;
+}
+
+#secc01art02 ul{
+	list-style: none;
+	margin-left: -40px;
+}
+
+#secc01art02 ul li:before{
+	content: "• ";
+	color: #e8198e;
+	padding-left: -120px;
 }
 
 #bgoffer{
@@ -62,4 +73,83 @@ header nav ul li{
 	left: -40px;
 	position: relative;
 }
+
+
+#segundaSeccion{
+	margin-top: 200px;
+}
+
+#segundaSeccion article{
+	text-align: right;
+	padding-right: 160px;
+}
+
+#terceraSeccion{
+	margin-top: 20px;
+}
+
+#terceraSeccion article{
+	display: inline-block;
+	width: 23%;
+	vertical-align: top;
+}
+
+#terceraSeccion article img{
+	vertical-align: middle;
+}
+
+#terceraSeccion article form input{
+	border-radius: 5px;
+}
+
+
+#terceraSeccion article form input[type="submit"]{
+	background-color: #95c114;
+	color: white;
+	font-weight: bold;
+	padding: 5px 10px;
+}
+
+#terceraSeccion article form input[type="email"]{
+	padding: 5px 0px;
+}
+
+#stayInTouch{
+	padding-top: 50px;
+	padding-left: 25px;
+}
+
+.colorAzul{
+	color: #659bd1;
+}
+
+.colorRosa{
+	color: #e8198e;
+}
+
+.comunTitulo{
+	font-size: 1.3em;
+}
+
+.colorVerde{
+	color: #9ad600;
+}
+
+.rosaGrande{
+	font-size: 3.5em;
+}
+
+.rosaMediano{
+	font-size: 2em;
+}
+
+.nito{
+	font-weight: bold;	
+}
+
+.distintoTitulo{
+	font-size: 1.6em;
+}
+
+
 
