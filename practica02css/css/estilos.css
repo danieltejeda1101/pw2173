@@ -2,6 +2,7 @@ body{
 	max-width: 1078px;
 	min-width: 1078px;
 	margin: 0 auto;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 16px; /*1em*/
 }
 
@@ -21,7 +22,7 @@ header nav ul li{
 	display: inline-block;
 	margin-right: 15px;
 	color: gray; /*grey*/
-	font-size: 1.7em;
+	font-size: 1.6em;
 	/*text-decoration: underline; Esta es otra manera de hacer borde inferior*/
 	border-bottom: 1px solid gray;
 }
