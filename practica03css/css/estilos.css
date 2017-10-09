@@ -1,0 +1,68 @@
+body{
+	max-width: 1024px;
+	min-width: 1024px;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+
+header ul{
+	margin-top: 50px;
+}
+
+header ul li{
+	color: white;
+	display: inline-block;
+	text-transform: capitalize;
+	margin: 5px 10px;
+}
+
+main{
+	width: 950px;
+	margin: 0 auto;
+	border: 1px solid blue;
+}
+
+#logo{
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+#primeraSeccion article{
+	display: inline-block;
+}
+
+#segundaSeccion article{
+	display: inline-block;
+} 
+
+#social{
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+#social img{
+	margin: 0px 2px;
+}
+
+#slider{
+	width: 65%;
+}
+
+#publicidad{
+	width: 33%;
+}
+
+#publicidad img{
+	display: inline-block;
+}
+
+#publicidad span{
+	display: block;
+}
+
+.orange{
+	background-color: orange;
+}
+
+
