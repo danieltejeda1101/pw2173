@@ -50,6 +50,7 @@ main{
 }
 
 #publicidad{
+	vertical-align: top;
 	width: 33%;
 }
 
@@ -58,11 +59,16 @@ main{
 }
 
 #publicidad span{
+	text-align: center;
 	display: block;
 }
 
 .orange{
 	background-color: orange;
+}
+
+.white{
+	color: white;
 }
 
 
