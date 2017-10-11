@@ -3,17 +3,22 @@ body{
 	min-width: 1024px;
 	margin: 0 auto;
 	border: 1px solid red;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif:;
 }
 
 header ul{
 	margin-top: 50px;
+	padding: 10px 0px;
 }
 
 header ul li{
 	color: white;
 	display: inline-block;
-	text-transform: capitalize;
+	text-transform: uppercase;
+	font-weight: bold;
 	margin: 5px 10px;
+	font-size: 1.1em;
 }
 
 main{
@@ -63,9 +68,30 @@ main{
 	display: block;
 }
 
-.orange{
-	background-color: orange;
+.border{
+	border-radius: 5px;
 }
+
+.orange{
+	/*Si no soporta gradientes*/
+	background: orange;
+
+	/*Opera*/
+	background: -o-linear-gradient(#fc7212, #fbaf84, #fa6f11, #e4570a, #ce3d05);
+
+	/*Safari*/
+	background: -webkit-linear-gradient(#fc7212, #fbaf84, #fa6f11, #e4570a, #ce3d05);
+
+	/*Firefox*/
+	background: -moz-linear-gradient(#fc7212, #fbaf84, #fa6f11, #e4570a, #ce3d05);
+
+	/*Genérico*/
+	background: linear-gradient(#fc7212, #fbaf84, #fa6f11, #e4570a, #ce3d05);
+}
+
+/*
+#fc7212, #fbaf84, #fa6f11, #e4570a, #ce3d05
+*/
 
 .white{
 	color: white;
