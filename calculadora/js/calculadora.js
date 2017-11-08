@@ -1,5 +1,3 @@
-var operando1 = 0;
-var operando2 = 0;
 var operador = "";
 
 function numeros(num){
@@ -22,9 +20,40 @@ function numeros(num){
 	}
 	//Escribir en operando 2
 	document.calculadora.operando2.value = document.calculadora.operando2.value + num
-
 }
 
 function operadores(ope){
 	operador = ope
 }
+
+function igual(){
+	var valor1 = document.calculadora.operando1.value;
+	var valor2 = document.calculadora.operando2.value;
+	document.calculadora.resultado.value = eval(valor1+operador+valor2);
+}
+
+function borrar(){
+	document.calculadora.resultado.value = "";
+	document.calculadora.operando1.value = "";
+	document.calculadora.operando2.value = "";
+	operador = "";
+}
+
+
+
+
+$.ajax({
+  url: 'https://randomuser.me/api/',
+  dataType: 'json',
+  success: function(data) {
+    console.log(data);
+  }
+});
+      
+
+
+
+
+
+
+
