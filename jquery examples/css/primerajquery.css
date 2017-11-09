@@ -1,0 +1,44 @@
+body{
+	width: 1024px;
+	margin: 0 auto;
+	font-size: 16px;
+	background-color: rgb(240,240,240);
+}
+
+ul{
+	list-style: none;
+}
+
+#top{
+	margin-top: 35px;
+}
+
+#top article{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#top article ul{
+	margin-right: 15px;
+}
+
+#top article ul li{
+	padding-bottom: 7px;
+}
+
+#top, #bottom{
+	border-radius: 10px;
+	background-color: white;
+}
+
+#foto{
+	margin-left: 30px;
+	margin-top: 10px;
+	border-radius: 100px;
+}
+
+
+.title{
+	font-weight: bold;
+	font-size: 1.4em;
+}
