@@ -14,6 +14,9 @@ var inicia = function(){
 				$("#email").html(data.results[0].email);
 				$("#cumpleaños").html(data.results[0].dob);
 				$("#foto").attr("src",data.results[0].picture.large);
+				$("#address").html(data.results[0].location.street);
+				$("#phoneNumber").html(data.results[0].phone);
+				$("#cell").html(data.results[0].cell);
 			}
 		});
 	}

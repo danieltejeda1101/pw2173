@@ -5,17 +5,24 @@ body{
 	background-color: rgb(240,240,240);
 }
 
+section{
+	margin-left: 170px;
+}
+
 ul{
 	list-style: none;
 }
 
 #top{
 	margin-top: 35px;
+	min-width: 400px;
+	max-width: 600px;
 }
 
-#top article{
+#top .info{
 	display: inline-block;
 	vertical-align: top;
+	margin: 5px 5px;
 }
 
 #top article ul{
@@ -26,7 +33,7 @@ ul{
 	padding-bottom: 7px;
 }
 
-#top, #bottom{
+#top{
 	border-radius: 10px;
 	background-color: white;
 }
@@ -37,6 +44,9 @@ ul{
 	border-radius: 100px;
 }
 
+#profilePicture{
+	text-align: center;
+}
 
 .title{
 	font-weight: bold;
