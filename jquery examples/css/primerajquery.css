@@ -3,6 +3,7 @@ body{
 	margin: 0 auto;
 	font-size: 16px;
 	background-color: rgb(240,240,240);
+	font-family: 'Sintony', sans-serif;
 }
 
 section{
@@ -13,10 +14,27 @@ ul{
 	list-style: none;
 }
 
+#btnNuevo{
+	margin-bottom: 15px;
+	margin-left: 520px;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	background-color: rgb(210,210,210);
+	color: black;
+}
+
+#btnNuevo:hover{
+	background-color: black;
+	color: white;
+	cursor: pointer;
+}
+
 #top{
 	margin-top: 35px;
 	min-width: 400px;
 	max-width: 600px;
+	box-shadow: 10px 10px rgb(210,210,210);
 }
 
 #top .info{
