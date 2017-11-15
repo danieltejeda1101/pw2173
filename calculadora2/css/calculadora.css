@@ -1,0 +1,26 @@
+body{
+	max-width: 1024px;
+	min-width: 1024px;
+	margin: 20px auto;
+	font-size: 16px;
+	background-color: black;
+	color: white;
+}
+
+table{
+	text-align: center;
+	border: 3px dashed rgb(200,200,200);;
+	background-color: rgb(240,240,240);
+	border-radius: 5px;
+	box-shadow: 15px 15px 15px white;
+}
+
+input[type="text"]{
+	width: 80%;
+}
+
+input[type="button"]{
+	font-size: 2em;
+	width: 70px;
+
+}
