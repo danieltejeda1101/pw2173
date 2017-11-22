@@ -7,10 +7,17 @@ const path = require('path'); //Muestra la ruta del archivo
 const url = require('url');//Carga una url
 
 
-
 // ECMASCRIPT = 6
 // Constante sin valor inicial
 let PantallaPrincipal;
+//Objeto global para compartir datos entre pantallas
+global.infoUsuarios = {
+	nombre: '',
+	genero: '',
+	foto: '',
+	direccion: '',
+	telefono: ''
+}
 
 //Función
 function muestraPantallaPrincipal(){
