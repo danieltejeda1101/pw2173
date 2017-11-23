@@ -56,7 +56,7 @@ function botonDetalle(){
 		protocol: 'file',							
 		slashes: true
 	}));
-	PantallaDetalle.webContents.openDevTools();
+	//PantallaDetalle.webContents.openDevTools();
 	PantallaDetalle.show();
 }
 
