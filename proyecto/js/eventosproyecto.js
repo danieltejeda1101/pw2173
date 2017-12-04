@@ -9,13 +9,24 @@ var inicia = function(){
 						 "&clave="+clave+
 						 "&id="+Math.random();
 		$.ajax({
-			url: 'localhost/pw/php/entrada.php',
+			url: 'php/entrada.php',
 			dataType: 'json',
+			type: 'post',
+			data:parametros,
 			success:function(result){
-
+				console.log(result);
+				if(result.respuesta){
+					alert("Bienvenido");
+				}
+				else{
+					alert("Usuario incorrecto");
+				}
+				
 			},
 			error:function(a,b,c){
-
+				console.log(a);
+				console.log(b);
+				console.log(c);
 			}
 		});
 	}
