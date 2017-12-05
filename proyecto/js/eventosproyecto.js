@@ -16,7 +16,8 @@ var inicia = function(){
 			success:function(result){
 				console.log(result);
 				if(result.respuesta){
-					alert("Bienvenido");
+					//alert("Bienvenido "+result.nombre);
+					$("main").load("menu.html");
 				}
 				else{
 					alert("Usuario incorrecto");
