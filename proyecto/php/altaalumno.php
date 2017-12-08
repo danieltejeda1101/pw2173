@@ -8,7 +8,7 @@
 		$ncontrol = GetSQLValueString($_POST["ncontrol"],"text");
 		$nombre = GetSQLValueString($_POST["nombre"],"text");
 		$carrera = GetSQLValueString($_POST["carrera"],"int");
-		$clave = GetSQLValueString($_POST["clave"],"text");
+		$clave = GetSQLValueString(md5($_POST["clave"]),"text");
 
 		$conexion = conectaBD();
 		$consulta = sprintf("insert into alumnos values(%s,%s,%d,%s)",$ncontrol,$nombre,$carrera,$clave);
